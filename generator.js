@@ -1,5 +1,4 @@
 $( document ).ready(function () {
-  console.log('hello?');
   // select one from list at random
   function choice(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -32,22 +31,23 @@ $( document ).ready(function () {
     'beard', 'monocle', 'model train', 'church'
   ]; 
   var unpluralizable_nouns = [
-    'pest-control', 'jewelry', 
-    'mass-transit', 'video-poker', 'demolition',
-    'air-quality', 'self'
+    'pest control', 'jewelry', 
+    'mass transit', 'video-poker', 'demolition',
+    'air quality', 'self'
   ];
   var nouns = unpluralizable_nouns.concat(pluralizable_nouns);
   var vague_iot_nouns = [
-    'machine-learning', 'telepresence', 'bluetooth', 'alerts',
-    'analytics', 'data-science', 'gps'
+    'machine learning', 'telepresence', 'bluetooth', 'alerts',
+    'analytics', 'data-science', 'gps', 'fog computing', 
+    'augmented reality', 
   ];
   var adjectives = [
-    'smart', 'quadcopter-borne', 'alert-generating', 
-    'wifi', 'connected', '3D-printed', 'ubiquitous',
-    'texting', 'rift-enabled', 'wearable', 'crowd-sourced',
-    'presence-sensing', 'trackable', 'robotic',
-    'autonomous', 'quantified', 'next-gen', 'high-res',
-    'responsive', 'self-replicating'
+    'smart', 'quadcopter borne', 'alert generating', 
+    'wifi', 'connected', '3D printed', 'ubiquitous',
+    'texting', 'rift enabled', 'wearable', 'crowd sourced',
+    'presence sensing', 'trackable', 'robotic',
+    'autonomous', 'quantified', 'next gen', 'high resolution',
+    'responsive', 'self replicating', 'live tweeting'
   ];
   var companies = [
     'facebook', 'snapchat', 'uber', 'grindr', 'tinder', 'lyft', 
