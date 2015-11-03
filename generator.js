@@ -5,31 +5,31 @@ $( document ).ready(function () {
     return arr[Math.floor(Math.random() * arr.length)];
   }
   var pluralizable_nouns = [
-    'waffle-iron', 'laser-cutter', 'windmill', 
+    'waffle iron', 'laser cutter', 'windmill', 
     'crib', 'thermostat', 'unicycle', 
     'toaster', 'broiler', 'light-switch', 'hot-tub',
-    'holiday-lights', 'car-wash', 'rice-cooker',
+    'holiday lights', 'carwash', 'rice cooker',
     'treadmill', 'stationary-bicycle', 'blender',
-    'billboard', 'hair-dryer', 'curling-iron',
-    'humidor', 'mini-fridge', 'tractor',
-    'ant-farm', 'trash-compactors', 'quadcopter', 
-    'artificial-heart', 'outernet', 'steam-engine',
-    'swim-goggles', 'observation-tower', 'mars-explorer', 
-    'power-grid', 'cryogenics', 'parade-float', 
+    'billboard', 'hair dryer', 'curling iron',
+    'humidor', 'mini fridge', 'tractor',
+    'ant farm', 'trash compactors', 'quadcopter', 
+    'artificial heart', 'outernet', 'steam-engine',
+    'swim goggles', 'observation-tower', 'mars-explorer', 
+    'power grid', 'cryogenics', 'parade-float', 
     'satellite', 'wheelchair', 'hydraulic-press',
-    'city', 'public-space', 'sous-vide',
-    'curling-stone', 'security-cameras', 'hidden-camera',
-    'jet-ski', 'office-chair', 'messenger-bag', 'elevator',
-    'skyway', 'megaphone', 'happy-hour',
-    'wheelchair', 'arcade', 'jacket', 'demolition', 'storm-window', 
+    'city', 'public space', 'sous vide',
+    'curling stone', 'security cameras', 'hidden camera',
+    'jetski', 'office chair', 'messenger bag', 'elevator',
+    'skyway', 'megaphone', 'happy hour',
+    'wheelchair', 'arcade', 'jacket', 'demolition', 'storm window', 
     'door', 'cinema', 'earring', 'necklace',
-    'wine', 'beer', 'cocktail', 'porta-potty',
-    'helicopter', 'snowmobile', 'lamp-post',
-    'tattoo', 'tree', 'christmas-tree', 'situation-room',
-    'fortune-cookie', 'seed-bank', 'canoe', 'warehouse',
-    'podium', 'suitcase', 'coffee-mug', 'candle',
-    'crampon', 'excavator', 'fallout-shelter',
-    'beard', 'monocle', 'model-train', 'church'
+    'wine', 'beer', 'cocktail', 'porta potty',
+    'helicopter', 'snowmobile', 'lamp post',
+    'tattoo', 'tree', 'situation room',
+    'fortune cookie', 'seed bank', 'canoe', 'warehouse',
+    'podium', 'suitcase', 'coffee mug', 'candle',
+    'crampon', 'excavator', 'fallout shelter',
+    'beard', 'monocle', 'model train', 'church'
   ]; 
   var unpluralizable_nouns = [
     'pest-control', 'jewelry', 
@@ -51,7 +51,7 @@ $( document ).ready(function () {
   ];
   var companies = [
     'facebook', 'snapchat', 'uber', 'grindr', 'tinder', 'lyft', 
-    'skynet', 'twitter', 'hyperloop', 'airbnb', 'github', 'the-cloud',
+    'skynet', 'twitter', 'hyperloop', 'airbnb', 'github', 'the cloud',
     'yik-yak', 'chatroulette'
   ];
   var project = '';
