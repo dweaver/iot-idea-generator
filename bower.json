@@ -1,0 +1,23 @@
+{
+  "name": "ideas",
+  "version": "0.0.0",
+  "authors": [
+    "Dan Weaver <danweaver@exosite.com>"
+  ],
+  "description": "IoT Idea Generator",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "IoT",
+    "Ideas"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
