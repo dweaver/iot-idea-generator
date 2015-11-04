@@ -1,5 +1,28 @@
 #idea {
   text-align: center;
+  height: 246px;
+  width: 600px;
+  font-family: 'Kreon', serif;
+  font-size: 40px;
+  display: block;
+  position: relative;
+}
+
+#idea::after {
+  content: "";
+  background: url(/images/federal_reserve_billion_note_lg.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+#generator {
+  text-align: center;
+  position: relative;
 }
 
 h1 {
