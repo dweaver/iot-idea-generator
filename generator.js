@@ -51,7 +51,7 @@ $( document ).ready(function () {
     'responsive', 'self replicating', 'live tweeting'
   ];
   var companies = [
-    'facebook', 'snapchat', 'uber', 'grindr', 'tinder', 'lyft', 
+    'facebook', 'snapchat', 'uber', 'tinder', 'lyft', 
     'skynet', 'twitter', 'hyperloop', 'airbnb', 'github', 'the cloud',
     'yik-yak', 'chatroulette'
   ];
@@ -61,10 +61,10 @@ $( document ).ready(function () {
   if (r < 0.40) {
     noun = choice(nouns);
     project = choice(adjectives) + ' ' + noun;
-  } else if (r < 0.92) {
+  } else if (r < 0.90) {
     noun = choice(pluralizable_nouns);
     project = choice(companies) + ' but for ' + pluralize(noun, 2);
-  } else if (r < 0.98) {
+  } else if (r < 0.95) {
     noun = choice(nouns);
     project = 'an api for your ' + noun;
   } else {
