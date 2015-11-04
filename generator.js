@@ -72,10 +72,10 @@ $( document ).ready(function () {
     project = pluralize(noun, 2) + ' but with, like, ' + choice(vague_iot_nouns) + ' or something';
   }
   $('#project').html(project);
-  var CIK = '301bd1c9cc9cd86caa3b65d2df961f55733610b2';
+  var CID = '6ea5ecf4f69b732eee4de52044292dc693331862';
   var TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiaWRlYXMiLCJkb21haW4iOiJodHRwczovL2V4b2hhY2suaW8ifQ.zpAmoTu6Jc6p73Z0FmOwnqq8qQ56fNsJUEzhxUSUaqM';
   var data = JSON.stringify({
-      auth: {cik: CIK},
+      auth: {client_id: CID},
       calls: [{
         id: 1,
         procedure: 'write',
