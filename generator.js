@@ -28,7 +28,8 @@ $( document ).ready(function () {
     'fortune cookie', 'seed bank', 'canoe', 'warehouse',
     'podium', 'suitcase', 'coffee mug', 'candle',
     'crampon', 'excavator', 'fallout shelter',
-    'beard', 'monocle', 'model train', 'church'
+    'beard', 'monocle', 'model train', 'church',
+    'chopstick', 'laser pointer'
   ]; 
   var unpluralizable_nouns = [
     'pest control', 'jewelry', 
