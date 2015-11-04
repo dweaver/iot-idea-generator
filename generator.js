@@ -98,10 +98,9 @@ $( document ).ready(function () {
     url: 'https://api.exohack.io/api/onep:v1/rpc/process', 
     data: data,
     processData: false,
-    contentType: 'application/json;charset=UTF-8',
     headers: {
       'Accept': 'application/json, text/plain, */*',
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json;charset=UTF-8',
       'Authorization': 'Bearer ' + TOKEN
     },
     success: function(data) {
