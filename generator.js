@@ -29,7 +29,7 @@ $( document ).ready(function () {
     'podium', 'suitcase', 'coffee mug', 'candle',
     'crampon', 'excavator', 'fallout shelter',
     'beard', 'monocle', 'model train', 'church',
-    'chopstick', 'laser pointer'
+    'chopstick', 'laser pointer', 'snack', 'standing desk'
   ]; 
   var unpluralizable_nouns = [
     'pest control', 'jewelry', 
@@ -69,7 +69,7 @@ $( document ).ready(function () {
     project = 'an api for your ' + noun;
   } else {
     noun = choice(pluralizable_nouns);
-    project = pluralize(noun, 2) + ' but with like ' + choice(vague_iot_nouns) + ' or something';
+    project = pluralize(noun, 2) + ' but with, like, ' + choice(vague_iot_nouns) + ' or something';
   }
   $('#project').html(project);
   var CID = '6ea5ecf4f69b732eee4de52044292dc693331862';
