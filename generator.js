@@ -75,7 +75,7 @@ $( document ).ready(function () {
   var CID = '6ea5ecf4f69b732eee4de52044292dc693331862';
   var TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiaWRlYXMiLCJkb21haW4iOiJodHRwczovL2V4b2hhY2suaW8ifQ.zpAmoTu6Jc6p73Z0FmOwnqq8qQ56fNsJUEzhxUSUaqM';
   var data = JSON.stringify({
-      auth: {},
+      auth: {client_id: CID},
       calls: [{
         id: 1,
         procedure: 'write',
