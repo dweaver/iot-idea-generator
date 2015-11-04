@@ -33,14 +33,14 @@ $( document ).ready(function () {
   ]; 
   var unpluralizable_nouns = [
     'pest control', 'jewelry', 
-    'mass transit', 'video-poker', 'demolition',
+    'mass transit', 'video poker', 'demolition',
     'air quality', 'self', 'wine'
   ];
   var nouns = unpluralizable_nouns.concat(pluralizable_nouns);
   var vague_iot_nouns = [
     'machine learning', 'telepresence', 'bluetooth', 'alerts',
-    'analytics', 'data-science', 'gps', 'fog computing', 
-    'augmented reality', 
+    'analytics', 'data science', 'gps', 'fog computing', 
+    'augmented reality', 'hadoop'
   ];
   var adjectives = [
     'smart', 'quadcopter borne', 'alert generating', 
@@ -53,7 +53,7 @@ $( document ).ready(function () {
   var companies = [
     'facebook', 'snapchat', 'uber', 'tinder', 'lyft', 
     'skynet', 'twitter', 'hyperloop', 'airbnb', 'github', 'the cloud',
-    'yik-yak', 'chatroulette'
+    'yik yak', 'chatroulette'
   ];
   var project = '';
   var r = Math.random();
