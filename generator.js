@@ -64,7 +64,7 @@ $( document ).ready(function () {
   } else if (r < 0.90) {
     noun = choice(pluralizable_nouns);
     project = choice(companies) + ' but for ' + pluralize(noun, 2);
-  } else if (r < 0.95) {
+  } else if (r < 0.96) {
     noun = choice(nouns);
     project = 'an api for your ' + noun;
   } else {
