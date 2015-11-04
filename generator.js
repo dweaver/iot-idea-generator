@@ -22,7 +22,7 @@ $( document ).ready(function () {
     'skyway', 'megaphone', 'happy hour',
     'wheelchair', 'arcade', 'jacket', 'demolition', 'storm window', 
     'door', 'cinema', 'earring', 'necklace',
-    'wine', 'beer', 'cocktail', 'porta potty',
+    'beer', 'cocktail', 'porta potty',
     'helicopter', 'snowmobile', 'lamp post',
     'tattoo', 'tree', 'situation room',
     'fortune cookie', 'seed bank', 'canoe', 'warehouse',
@@ -33,7 +33,7 @@ $( document ).ready(function () {
   var unpluralizable_nouns = [
     'pest control', 'jewelry', 
     'mass transit', 'video-poker', 'demolition',
-    'air quality', 'self'
+    'air quality', 'self', 'wine'
   ];
   var nouns = unpluralizable_nouns.concat(pluralizable_nouns);
   var vague_iot_nouns = [
