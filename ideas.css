@@ -33,3 +33,9 @@ p {
   vertical-align: middle; 
   text-align: center; 
 }
+
+a {
+  font-family: 'Press Start 2P', cursive;
+  color: #121;
+  text-decoration: none;
+}
