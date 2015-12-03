@@ -53,7 +53,7 @@ $( document ).ready(function () {
   var companies = [
     'facebook', 'snapchat', 'uber', 'tinder', 'lyft', 
     'skynet', 'twitter', 'hyperloop', 'airbnb', 'github', 'the cloud',
-    'yik yak', 'chatroulette'
+    'yik yak', 'chatroulette', 'fitbit'
   ];
   var project = '';
   var r = Math.random();
