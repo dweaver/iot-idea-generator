@@ -8,8 +8,6 @@ RUN apk add --update nginx git && \
 
 WORKDIR /app
 
-COPY package.json ./package.json
-
 COPY . /app
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
 COPY nginx/mime.types /etc/nginx/mime.types
